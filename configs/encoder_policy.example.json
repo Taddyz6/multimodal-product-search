@@ -1,0 +1,29 @@
+{
+  "user_approved_compatibility": true,
+  "historical_sqid_revision_verified": false,
+  "clip_revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+  "sbert_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "clip_root": "../artifacts/encoders/clip",
+  "sbert_root": "../artifacts/encoders/sbert",
+  "dependencies": "../.encoder-deps",
+  "hf_home": "../.cache/huggingface",
+  "checkpoint_files": {
+    "clip": {
+      "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+      "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+      "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+      "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+      "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+      "vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69",
+      "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+    },
+    "sbert": {
+      "model.safetensors": "1377e9af0ca0b016a9f2aa584d6fc71ab3ea6804fae21ef9fb1416e2944057ac",
+      "config.json": "690af9cc80966511549996e93b5d1ee6811011f53208da7c697310ef92795b43",
+      "tokenizer_config.json": "ccb4eb21a03e1442ee5c3f85431b9c307960a04579942537d74778dc8080a48c",
+      "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+      "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+      "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    }
+  }
+}

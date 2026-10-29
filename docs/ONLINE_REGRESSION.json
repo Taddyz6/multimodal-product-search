@@ -1,0 +1,31 @@
+{
+  "historical_sqid_identity_claimed": false,
+  "relevance_labels_read": false,
+  "new_performance_evaluation": false,
+  "matching_single_query_batch_size": true,
+  "queries": [
+    {
+      "query_id": "100447",
+      "encoder_exact_vs_approved_worker": true,
+      "top10_exact": true,
+      "sbert_norm": 1.0,
+      "clip_norm": 0.9999999403953552
+    },
+    {
+      "query_id": "100618",
+      "encoder_exact_vs_approved_worker": true,
+      "top10_exact": true,
+      "sbert_norm": 1.0,
+      "clip_norm": 0.9999999403953552
+    },
+    {
+      "query_id": "101625",
+      "encoder_exact_vs_approved_worker": true,
+      "top10_exact": true,
+      "sbert_norm": 1.0,
+      "clip_norm": 0.9999999403953552
+    }
+  ],
+  "all_passed": true,
+  "worker_exited": true
+}

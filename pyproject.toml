@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "multimodal-product-search"
+version = "1.0.0"
+description = "Frozen multimodal retrieval and learning-to-rank with a CPU search demo"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [{name = "Junhao Zhang"}]
+dynamic = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/product_search"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

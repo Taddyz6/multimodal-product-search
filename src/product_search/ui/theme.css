@@ -1,0 +1,81 @@
+:root { --ink:#19342e; --muted:#73817c; --accent:#246956; --line:#e0e7e0; }
+.stApp { background:#f6f7f2; color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif; }
+[data-testid="stHeader"] { background:rgba(246,247,242,.92); }
+.block-container { max-width:1240px; padding-top:2.3rem; padding-bottom:3rem; }
+.brand-row { display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); padding:8px 0 22px; margin-bottom:28px; gap:14px; }
+.wordmark { display:flex; align-items:center; gap:12px; font-weight:750; letter-spacing:-.04em; font-size:22px; }
+.brand-mark { display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:11px; background:var(--ink); color:#f8faf6; font-size:25px; }
+.brand-subtitle { font-size:12px; color:var(--muted); letter-spacing:.08em; margin-left:5px; font-weight:500; }
+.status-pill { display:inline-flex; align-items:center; gap:8px; background:#e8f0e6; border:1px solid #d7e5d4; border-radius:30px; padding:7px 12px; color:#35664d; font-size:12px; white-space:nowrap; }
+.status-pill.offline { background:#f4eee1; color:#8d6b35; border-color:#e8dac0; }
+.status-dot { width:6px; height:6px; border-radius:50%; background:currentColor; }
+.hero { padding:7px 0 22px; }
+.eyebrow { color:#7a8d78; font-size:10px; font-weight:750; letter-spacing:.19em; margin-bottom:12px; }
+.hero h1 { margin:0 0 14px; padding:0; font-size:clamp(30px,4vw,47px); line-height:1.22; letter-spacing:-.045em; color:var(--ink); font-weight:750; }
+.hero p { margin:0; color:#7a857d; font-size:14px; line-height:1.8; }
+.hero em { color:#4d765b; font-style:normal; }
+.st-key-search_panel { border:1px solid #dce4d9; border-radius:20px; padding:20px 22px 12px; background:#fff; box-shadow:0 9px 28px rgba(25,52,46,.035); }
+.st-key-search_panel [data-testid="stForm"] { border:none; padding:0; }
+[data-testid="stTextInput"] input { background:#f9faf7; border-radius:10px; min-height:49px; font-size:15px; color:var(--ink); }
+[data-testid="stSelectbox"] [data-baseweb="select"]>div { background:#f9faf7; min-height:49px; border-radius:10px; }
+[data-testid="stBaseButton-primaryFormSubmit"], button[kind="primaryFormSubmit"] { background:var(--accent); border:1px solid var(--accent); color:white; border-radius:10px; min-height:49px; box-shadow:none; }
+button[kind="primaryFormSubmit"]:hover { background:#1d5546; border-color:#1d5546; }
+.search-hint { color:#8a948c; font-size:11px; padding-top:2px; }
+.st-key-suggestions button { background:transparent; color:#67766a; border:1px solid #dce3d7; border-radius:30px; padding:3px 12px; min-height:30px; font-size:12px; white-space:nowrap; }
+.st-key-suggestions button:hover { background:#eaf0e4; color:#315e46; border-color:#c2d1bc; }
+.results-bar { display:flex; align-items:flex-end; justify-content:space-between; gap:18px; margin:32px 0 20px; }
+.results-bar h2 { color:var(--ink); margin:0 0 5px; padding:0; font-size:24px; letter-spacing:-.045em; }
+.results-bar .eyebrow { margin-bottom:8px; }
+.result-query { color:#809080; font-size:12px; margin:0; max-width:650px; overflow-wrap:anywhere; }
+.results-summary { display:flex; gap:9px; align-items:center; color:#7c897f; font-size:12px; white-space:nowrap; padding-bottom:4px; }
+.mode-pill,.latency-pill { font-size:11px; padding:5px 8px; border-radius:5px; background:#e8eee3; color:#66815c; }
+.latency-pill { background:transparent; border:1px solid #dce3d7; color:#788873; }
+[class*="st-key-product_card_"] { border:1px solid #e1e7df; border-radius:15px; padding:15px; background:white; transition:box-shadow .18s ease,border-color .18s ease; margin-bottom:8px; }
+[class*="st-key-product_card_"]:hover { box-shadow:0 8px 20px rgba(25,52,46,.055); border-color:#c6d6bf; }
+[class*="st-key-product_card_"] [data-testid="stImage"] img { height:205px; object-fit:contain; background:white; padding:6px; }
+.card-topline { display:flex; align-items:center; justify-content:space-between; color:#8b9a8d; font-size:10px; margin-bottom:6px; }
+.rank-badge { color:#4c7252; background:#edf3e9; border:1px solid #e0e9dc; padding:3px 7px; border-radius:6px; font-size:11px; font-weight:650; }
+.product-title { color:#2b4135; font-size:13px; line-height:1.65; font-weight:550; height:4.95em; margin-top:8px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; }
+.product-id { color:#94a08f; font-size:10px; font-family:ui-monospace,SFMono-Regular,monospace; margin-top:12px; padding-top:11px; border-top:1px solid #f0f2eb; overflow-wrap:anywhere; }
+.model-score { font-size:10px; color:#7d8f78; margin-top:6px; }
+.image-placeholder { height:205px; display:flex; align-items:center; justify-content:center; flex-direction:column; gap:9px; border-radius:9px; color:#a7b2a0; background:#f6f8f2; font-size:12px; }
+.empty-state { text-align:center; padding:64px 20px 68px; color:#87957f; }
+.empty-state .empty-icon { display:inline-flex; align-items:center; justify-content:center; border:1px solid #d8e2ce; background:#edf3e6; border-radius:22px; width:68px; height:68px; font-size:32px; color:#80936f; margin-bottom:18px; }
+.empty-state h3 { font-size:18px; color:#59714e; letter-spacing:-.025em; margin:0 0 8px; }
+.empty-state p { font-size:12px; color:#95a28c; margin:0; }
+.page-footer { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; border-top:1px solid var(--line); padding:18px 0 4px; margin-top:28px; font-size:10px; color:#9aa78f; }
+.st-key-demo_tools [data-testid="stExpander"] { border:1px solid #e0e6da; background:transparent; border-radius:10px; }
+@media(max-width:700px) { .brand-subtitle { display:none; } .block-container { padding-left:1rem; padding-right:1rem; } .hero { padding-top:0; } .results-bar { align-items:flex-start; flex-direction:column; gap:12px; } .results-summary { flex-wrap:wrap; } .st-key-search_panel { padding:14px; } .brand-row { margin-bottom:22px; } }
+@media(prefers-reduced-motion:reduce) { [class*="st-key-product_card_"] { transition:none; } }
+/* A familiar search-first layout, with stronger product text contrast. */
+.stApp { background:#fafbf9; font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+[data-testid="stHeader"] { background:rgba(250,251,249,.95); }
+[data-testid="stToolbar"] { display:none; }
+.block-container { padding-top:1.6rem; }
+.brand-row { padding-bottom:20px; margin-bottom:26px; }
+.wordmark { font-size:23px; letter-spacing:-.045em; }
+.brand-subtitle { letter-spacing:0; margin-left:9px; padding-left:18px; border-left:1px solid #dce4dd; }
+.hero { padding:14px 0 25px; }
+.hero h1 { font-size:clamp(30px,3.4vw,43px); font-weight:700; letter-spacing:-.045em; }
+.hero p { color:#66766e; font-size:15px; }
+.st-key-search_panel { border-radius:15px; padding:16px 18px; box-shadow:0 4px 20px rgba(25,52,46,.025); }
+.st-key-suggestions { padding:2px 0 10px; }
+.st-key-suggestions button { color:#465e51; font-size:12px; }
+.results-bar { margin:26px 0 20px; align-items:center; }
+.results-bar h2 { font-size:21px; font-weight:650; line-height:1.45; letter-spacing:-.025em; overflow-wrap:anywhere; }
+.results-bar h2 span { font-weight:500; }
+.results-bar p { color:#6c7b71; font-size:12px; margin:6px 0 0; }
+.results-summary { flex-shrink:0; }
+[class*="st-key-product_card_"] { border-radius:13px; padding:17px; box-shadow:0 2px 5px rgba(25,52,46,.015); }
+.card-topline { color:#6c7b71; text-transform:none; }
+.rank-badge { color:#345e45; }
+.product-title { color:#253b30; font-size:14px; line-height:1.6; height:4.8em; font-weight:550; }
+.product-id { color:#687b6e; font-size:10px; }
+.model-score { color:#5e7363; }
+.image-placeholder { color:#718570; }
+.placeholder-icon { font-size:30px; }
+.empty-state { padding:48px 20px 52px; }
+.empty-state h3 { font-size:18px; color:#4c6652; }
+.empty-state p { font-size:13px; color:#71836f; }
+.page-footer { color:#768773; font-size:11px; }
+@media(max-width:700px) { .results-summary { flex-wrap:wrap; } .brand-row { gap:8px; } .wordmark { font-size:20px; } .status-pill { padding:6px 8px; font-size:11px; } }

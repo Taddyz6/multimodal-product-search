@@ -1,0 +1,908 @@
+{
+  "all_exact": true,
+  "queries": [
+    {
+      "query_id": "100447",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "100618",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "101625",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "101791",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 1
+    },
+    {
+      "query_id": "103465",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "103683",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "105303",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "106109",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "106656",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "108277",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "108581",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 8
+    },
+    {
+      "query_id": "108604",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 1
+    },
+    {
+      "query_id": "108661",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "109381",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "111364",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "112141",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "112884",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "113009",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    },
+    {
+      "query_id": "113167",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 1
+    },
+    {
+      "query_id": "113453",
+      "exact": true,
+      "fields": {
+        "raw_faiss_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "raw_faiss_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "candidate_rows": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "retrieval_scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "x": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scaled": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "scores": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "order": {
+          "exact": true,
+          "max_abs_error": 0.0
+        },
+        "keys": {
+          "exact": true
+        },
+        "columns": {
+          "exact": true
+        }
+      },
+      "missing_image_candidates": 0
+    }
+  ],
+  "reference": "Locked local A2 repeat02 arrays; cached unlabeled Validation queries only",
+  "relevance_labels_read": false,
+  "new_performance_evaluation": false
+}

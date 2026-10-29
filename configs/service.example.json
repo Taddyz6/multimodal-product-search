@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "products": "../artifacts/catalog/products.parquet",
+    "sbert_product": "../artifacts/embeddings/sbert_product.npy",
+    "clip_product_text": "../artifacts/embeddings/clip_product_text.npy",
+    "clip_product_image": "../artifacts/embeddings/clip_product_image.npy",
+    "lexical": "../artifacts/models/lexical_index.pkl",
+    "fusion_index": "../artifacts/indices/mask_aware_a50_b50.faiss",
+    "calibration": "../artifacts/models/calibration.json",
+    "listnet_npz": "../artifacts/models/listnet/model.npz",
+    "listnet_json": "../artifacts/models/listnet/model.json",
+    "fusion_recipe": "../artifacts/indices/fusion_recipe.json"
+  },
+  "encoder_policy": "encoder_policy.json",
+  "runtime_dir": "../.runtime"
+}

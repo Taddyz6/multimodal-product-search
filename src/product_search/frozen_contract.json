@@ -1,0 +1,116 @@
+{
+  "system": "Original calibrated mask-aware Fusion -> Frozen 28-feature ListNet",
+  "alpha": 0.5,
+  "beta": 0.5,
+  "top100": 100,
+  "products": 164900,
+  "ranker": {
+    "architecture": [
+      28,
+      64,
+      32,
+      1
+    ],
+    "dtype": "float32",
+    "features": [
+      "bm25",
+      "tfidf",
+      "title_tfidf",
+      "query_coverage",
+      "title_coverage",
+      "brand_overlap",
+      "color_overlap",
+      "bullet_coverage",
+      "description_coverage",
+      "digit_coverage",
+      "has_digits",
+      "title_phrase_match",
+      "brand_phrase_match",
+      "query_length",
+      "title_length",
+      "document_length",
+      "missing_description",
+      "missing_bullet",
+      "missing_brand",
+      "missing_color",
+      "sbert_similarity",
+      "clip_text_similarity",
+      "clip_image_similarity",
+      "image_available",
+      "calibrated_text_fusion_score",
+      "calibrated_fusion_score",
+      "brand_length",
+      "color_length"
+    ],
+    "mean_sha256": "8b2a90aa5ddafc9a96ebc4a377ceaa3663b905b13dad7965b996aa9f5dd44c2b",
+    "metadata_sha256": "a5bcb30e5c6e8be682b2580a31039226f148b83f88ef3803ca7902c04342e2eb",
+    "rrf_score_used_as_feature": false,
+    "scaler_reestimated": false,
+    "std_sha256": "9d7c0b8804da2c6dca2ab8ad3de2a582cae73570c8cb94231a18b2ec3c4c99d3",
+    "weights_sha256": "b4e70b6d09dacc0376552674b8fe4ca474fcbfbb189efb300db18f3c8c871569"
+  },
+  "numeric_environment": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "pyarrow": "25.0.1",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "faiss-cpu": "1.13.2"
+  },
+  "assets": {
+    "products": {
+      "sha256": "5d0238bbdb8635097b15fe9d4173fe949b00180e33114e2c33f26fd01cb11cfe"
+    },
+    "sbert_product": {
+      "sha256": "003f6054be5e782946464903cd0d9bc6195fb1282169f0d33f9b2b0ac60f8410"
+    },
+    "clip_product_text": {
+      "sha256": "0015a0a628cb00034999407ed481c098ed33f0a429d3a357c4e7202ae0da80de"
+    },
+    "clip_product_image": {
+      "sha256": "f448b2bd02946f95cd5077ac5cba6b3508b0f1fbed5b9409bf4c3a473af5aa8d"
+    },
+    "lexical": {
+      "sha256": "442e9336b3d4a8163803bbeb435ecee0ab13c90036ca62326c877c1b75fa2d80"
+    },
+    "fusion_index": {
+      "sha256": "70062f0e1e00522829e4680e6b0b63cae7f805e327015318d7894c18e64a6791"
+    },
+    "calibration": {
+      "sha256": "c5ae41f2b897ccedbea1b4b6421457148834519886a4477c9f3256eeeafe4990"
+    },
+    "listnet_npz": {
+      "sha256": "b4e70b6d09dacc0376552674b8fe4ca474fcbfbb189efb300db18f3c8c871569"
+    },
+    "listnet_json": {
+      "sha256": "a5bcb30e5c6e8be682b2580a31039226f148b83f88ef3803ca7902c04342e2eb"
+    },
+    "fusion_recipe": {
+      "sha256": "af8b045364f32cdca9c9fdf879441e4e4d25673e33f27d4329befcbbd33f1753"
+    }
+  },
+  "online_encoding": "Approved vector/result compatibility; exact historical SQID CLIP revision is not established.",
+  "encoders": {
+    "checkpoint_files": {
+      "clip": {
+        "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+        "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+        "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+        "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+        "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+        "vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69",
+        "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+      },
+      "sbert": {
+        "model.safetensors": "1377e9af0ca0b016a9f2aa584d6fc71ab3ea6804fae21ef9fb1416e2944057ac",
+        "config.json": "690af9cc80966511549996e93b5d1ee6811011f53208da7c697310ef92795b43",
+        "tokenizer_config.json": "ccb4eb21a03e1442ee5c3f85431b9c307960a04579942537d74778dc8080a48c",
+        "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+        "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+        "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      }
+    },
+    "clip_revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+    "sbert_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  }
+}

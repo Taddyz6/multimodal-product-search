@@ -1,0 +1,15 @@
+{
+  "tests": 45,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "lint": "passed",
+  "format": "passed",
+  "core_regression_queries_exact": 20,
+  "online_single_query_regressions_exact": 3,
+  "streamlit_render_tests": 2,
+  "model_training_performed": false,
+  "relevance_labels_read": false,
+  "performance_matrix_run": false,
+  "original_frozen_source_hashes_unchanged": 7
+}

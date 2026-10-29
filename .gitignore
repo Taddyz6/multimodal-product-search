@@ -1,0 +1,34 @@
+# External content, models and experiment outputs.
+artifacts/
+data/
+outputs/
+runs/
+*.npy
+*.npz
+*.parquet
+*.csv
+*.tsv
+*.jsonl
+*.pkl
+*.faiss
+*.safetensors
+*.pt
+*.local.json
+configs/service.json
+configs/encoder_policy.json
+# Local environments, logs and image cache.
+.venv/
+.encoder-deps/
+.cache/
+.runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+*.log
+.env
+.env.*
+.DS_Store
