@@ -88,7 +88,7 @@ Prepared28 特征 → 原 Scaler → 冻结 ListNet
 
 全目录检索中，校准 Fusion 的 Warm **Known-Positive Recall@50 为 0.5449**，SBERT 为 **0.4765**，相对提升 **14.35%**。该指标只衡量已知 E/S 正例的覆盖，未标注商品不被赋予负标签，也不以这一召回指标替代固定候选池 NDCG。
 
-[38 页完整技术报告](docs/Technical_Report.pdf)包含置信区间、消融、难例及失败实验。历史 Metadata 实验使用不同的 Query、标签和评估设置，在报告中单独展示。
+[38 页完整技术报告](docs/Technical_Report.pdf)包含置信区间、消融、难例及失败实验，附录 I 简要说明项目中的 AI 辅助使用情况。历史 Metadata 实验使用不同的 Query、标签和评估设置，在报告中单独展示。
 
 ### 本地 CPU 性能
 
@@ -226,6 +226,7 @@ ruff format --check src tests tools
 | 文档 | 内容 |
 |---|---|
 | [完整技术报告](docs/Technical_Report.pdf) | 方法、最终评估、难例与系统性能 |
+| [LaTeX 源码包](docs/Technical_Report_Source.zip) | 可编译的报告源码、图片、参考文献及 AI 辅助使用说明 |
 | [资产配置](docs/ASSETS.md) | 所需文件、哈希、Checkpoint 与配置路径 |
 | [特征说明](docs/FEATURES.md) | 原始 28 维特征的定义与顺序 |
 | [研究代码](docs/RESEARCH.md) | Baseline、消融与评估边界 |

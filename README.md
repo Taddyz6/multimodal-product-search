@@ -88,7 +88,7 @@ On Warm Test, XGBoost improves NDCG@10 by **1.20%** over BM25; LambdaMART and Li
 
 For full-catalog retrieval, calibrated Fusion achieves Warm **known-positive Recall@50 = 0.5449**, compared with SBERT's **0.4765**, a **14.35% relative improvement**. This measures coverage of known E/S positives; unjudged products are not assigned negative labels, and this recall is kept separate from pool NDCG.
 
-The [38-page technical report](docs/Technical_Report.pdf) includes confidence intervals, ablations, hard cases and unsuccessful experiments. Historical metadata-based results are reported separately because their queries, labels and evaluation setup differ.
+The [38-page technical report](docs/Technical_Report.pdf) includes confidence intervals, ablations, hard cases and unsuccessful experiments. Appendix I briefly describes AI assistance during the project. Historical metadata-based results are reported separately because their queries, labels and evaluation setup differ.
 
 ### Local CPU performance
 
@@ -226,6 +226,7 @@ Unit tests use small fixtures and require no catalog, relevance labels or checkp
 | Document | Contents |
 |---|---|
 | [Technical report](docs/Technical_Report.pdf) | Methods, final evaluation, hard cases and system performance |
+| [LaTeX source archive](docs/Technical_Report_Source.zip) | Compilable report source, figures, bibliography and AI assistance appendix |
 | [Asset setup](docs/ASSETS.md) | Required files, hashes, checkpoints and configuration |
 | [Feature reference](docs/FEATURES.md) | Definitions and order of the original 28 features |
 | [Research guide](docs/RESEARCH.md) | Baselines, ablations and evaluation boundaries |
